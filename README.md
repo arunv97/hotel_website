@@ -1,2 +1,3 @@
 # hotel_website
-A Simple Hotel website using floats etc.
+A simple responsive Hotel website using floats etc.
+#toDo preview

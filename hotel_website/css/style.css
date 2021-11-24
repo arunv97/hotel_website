@@ -49,8 +49,8 @@ p {
   font-size: 18px;
   color: #fff;
   background-color: #333;
-  padding: 13px;
-  border-radius: 8px;
+  padding: 8px;
+  border-radius: 2px;
   border: none;
   cursor: pointer;
 }
@@ -237,11 +237,35 @@ min-height: 100%;
     
 }
 
+/* Contact Form */
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+#contact-form label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+
+}
+
+#contact-form textarea{
+  height: 200px;
+}
+#contact-info .container{
+  overflow: hidden;
+
+}
+
 /* Footer */
 
 #main-footer{
     text-align: center;
-    background: #444;
+    background: rgb(94, 89, 89);
     color: #fff;
     padding: 20px;
     font-size: 12px;
